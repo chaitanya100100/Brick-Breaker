@@ -1,5 +1,5 @@
 # Brick Breaker
-A 2D game implemented in OpenGL 3.0
+A 2D game implemented in C++ using OpenGL 3.0
 
 ## COMPILE
 - Compile using simple 'make'
