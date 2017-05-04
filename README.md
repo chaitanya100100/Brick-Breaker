@@ -7,6 +7,14 @@ A 2D game implemented in OpenGL 3.0
 ## RUN
 - Run using './a.out'
 
+## Dependencies
+- Libraries
+	- GLAD
+	- GLFW
+	- GLM
+- irrKlang library is included inside the code
+- Change include headers in ![headers.h](/code_final/headers.h) if needed.
+
 ## ABOUT THE GAME
 - Score as high as possible
 - 100 points to target black brick
