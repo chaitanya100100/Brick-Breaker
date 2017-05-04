@@ -1,0 +1,26 @@
+GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path);
+static void error_callback(int error, const char* description);
+void quit(GLFWwindow *window);
+struct VAO* create3DObject (GLenum primitive_mode, int numVertices, const GLfloat* vertex_buffer_data, const GLfloat* color_buffer_data, GLenum fill_mode);
+struct VAO* create3DObject (GLenum primitive_mode, int numVertices, const GLfloat* vertex_buffer_data, const GLfloat red, const GLfloat green, const GLfloat blue, GLenum fill_mode);
+void draw3DObject (struct VAO* vao);
+GLFWwindow* initGLFW (int width, int height);
+void keyboard (GLFWwindow* window, int key, int scancode, int action, int mods);
+void keyboardChar (GLFWwindow* window, unsigned int key);
+void mouseButton (GLFWwindow* window, int button, int action, int mods);
+void reshapeWindow (GLFWwindow* window, int width, int height);
+void cursor_pos_callback(GLFWwindow* window, double xpos, double ypos);
+void scroll(GLFWwindow* window, double xpos, double ypos);
+void get_coords(double * x, double * y);
+
+extern struct GLMatrices Matrices;
+extern char GameHeading[10];
+extern int window_width;
+extern int window_height;
+extern Canon * c;
+extern Bucket * d[2];
+extern int selected;
+extern float ortho;
+extern int px;
+extern int wid;
+extern GLFWwindow* window;
