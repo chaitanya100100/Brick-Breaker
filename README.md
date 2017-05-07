@@ -1,10 +1,10 @@
 # Brick Breaker
 A 2D game implemented in C++ using OpenGL 3.0
 
-## COMPILE
+## Compile
 - Compile using simple 'make'
 
-## RUN
+## Run
 - Run using './a.out'
 
 ## Dependencies
@@ -15,7 +15,7 @@ A 2D game implemented in C++ using OpenGL 3.0
 - irrKlang library is included inside the code
 - Change include headers in ![headers.h](/code_final/headers.h) if needed.
 
-## ABOUT THE GAME
+## About The Game
 - Score as high as possible
 - 100 points to target black brick
 - 100 points if you collect red/green brick in same color bucket
@@ -23,7 +23,7 @@ A 2D game implemented in C++ using OpenGL 3.0
 - If black brick goes in any bucket game ends
 
 
-## CONTROLS
+## Controls
 
 ### Mouse
 - Scroll up/down to zoom in and zoom out (Alternate up arrow and down arrow)
@@ -52,8 +52,11 @@ A 2D game implemented in C++ using OpenGL 3.0
 - 'UP ARROW' to zoom in
 - 'DOWN ARROW' to zoom out
 
-## BONUS FEATURES
+## Bonus Features
 - Background Sound, Shoot Sound, Collision Sound
 - Scoreboard on Terminal
 - Stylist Rotating Bullet
 - Mirror Auto Up-Down and Rotation Movements
+
+## Scope of Improvement
+- Display of score on the board
