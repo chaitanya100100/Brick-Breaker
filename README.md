@@ -1,6 +1,8 @@
 # Brick Breaker
 A 2D game implemented in C++ using OpenGL 3.0
 
+![brickbreaker demo](demo/brickbreaker.gif)
+
 ## Compile
 - Compile using simple 'make'
 
