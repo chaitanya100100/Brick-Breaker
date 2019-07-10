@@ -1,9 +1,9 @@
-FLAG = -lGL -lglfw -ldl -I"include" -L"/usr/lib" -pthread
+FLAG = -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl -lXxf86vm -lXinerama -lXcursor
 
 all: a.out
 
 a.out: main.o noedit.o block.o brick.o canon.o bullet.o bucket.o controls.o mirror.o score.o collision.o
-	g++ main.o noedit.o block.o brick.o canon.o bullet.o bucket.o controls.o mirror.o score.o collision.o glad.c $(FLAG) ./libIrrKlang.so 
+	g++ main.o noedit.o block.o brick.o canon.o bullet.o bucket.o controls.o mirror.o score.o collision.o glad.c $(FLAG) ./libIrrKlang.so
 
 main.o: main.cpp main.h glad.c
 	g++ -c main.cpp glad.c $(FLAG)

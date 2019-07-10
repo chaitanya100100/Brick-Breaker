@@ -16,7 +16,7 @@ using namespace std;
 #include <glm/gtx/transform.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-#include <irrKlang.h>
+#include "../../irrKlang-64bit-1.5.0/include/irrKlang.h"
 using namespace irrklang;
 #pragma comment(lib, "irrKlang.lib")
 
